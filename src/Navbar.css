@@ -1,0 +1,34 @@
+/* CSS for the navbar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    padding: 0 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    color: #666666;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #333333;
+  }
+
+
+export default Navbar;
